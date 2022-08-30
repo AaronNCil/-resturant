@@ -1,8 +1,9 @@
 /* resets css page so that there is no emptpy space */
-* {
+html,
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  overflow-x:hidden;
   font-family: 'Lora', serif;
 }
 /* margin is the space around the element border and padding is the space between the border and content  */
