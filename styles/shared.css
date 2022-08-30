@@ -43,3 +43,13 @@
     color: white;
   }
   
+  .cta-container {
+    padding: 2rem;
+    background: #abac7f;
+    color: #0000FF;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
