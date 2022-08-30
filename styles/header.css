@@ -1,0 +1,44 @@
+.navbar-container {
+    top: 0%;
+    z-index: 1;
+  }
+  
+  .navbar {
+  /*   position: fixed; /*position stays in one place */
+    padding: 30px 200px;
+    background: #abac7fc7;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+  
+  .navbar ul {
+    display: flex; /* display flex makes the header side by side */
+  }
+  
+  .navbar ul li {
+    list-style: none; /* removes bullets beside text */
+    padding-right:10px;
+  }
+  
+  .navbar ul li a {
+    color: black;
+    padding: 14px 16px; /* first padding top down, second left right*/
+    text-decoration: none;
+    border-radius: 50px; /* rounds out the edges of box */
+    transition-duration: 0.4s;
+  }
+  
+  .navbar ul li a:hover {
+    /* Whenever your cursor is over the nav content*/
+    background-color: #373d20;
+    color: white;
+  }
+  
+  .navbar ul li a.active {
+    background-color: #373d20;
+    color: white;
+  }
+  
+  

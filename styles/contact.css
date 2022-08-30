@@ -1,0 +1,34 @@
+.contact {
+    background: #abac7f;
+    padding: 3rem 0;
+  }
+  
+  .form-container {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto; /* a way of centering a div */ 
+    max-width: 500px;
+  }
+  
+  input[type="text"], /* commas target multiple elements like "and" */
+  textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  
+  input[type="text"], /* commas target multiple elements like "and" */
+  textarea {
+    width: 100%;
+  }
+
+  .form-submit-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  

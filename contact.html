@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <!-- links the icons (instagram and twitter)-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <nav class="navbar">
+       <ul>
+         <li>
+           <a href="index.html"><strong>Home</strong></a>
+         </li>
+         <li>
+           <a href="menu.html"><strong>Menu</strong></a>
+         </li>
+         <li>
+           <a class="active" href="contact.html">
+             <strong>Contact</strong>
+           </a>
+        </li>
+       </ul>
+      </nav>
+    </header>
+    <h2 class="page-title">Contact Us!</h2>
+    <main class="contact">
+      <div class="form-container">
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+  
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+  
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email.." />
+  
+          <label for="phone">Phone</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Your phone number.."
+          />
+  
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+  
+          <div class="form-submit-container">
+            <input class="btn btn-accent" type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="logo-container">
+           <a
+            href="index.html"
+          >
+             <img class="logo" src="images/logo.jpg" alt="logo-image" />
+          </a>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">I
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">T
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener noreferrer">T
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">P
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+      <div class="copyright"><p>&copy; Aaron Cil 2022</p></div>
+    </footer>
+  </body>
+</html>

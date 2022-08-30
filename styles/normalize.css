@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); 
+/* resets css page so that there is no emptpy space */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+/* margin is the space around the element border and padding is the space between the border and content  */
+/*Border box makes content be placed all together*/
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
