@@ -1,5 +1,5 @@
 .navbar-container {
-    top: 0%;
+    top: 0;
     z-index: 1;
   }
   
@@ -36,7 +36,7 @@
     color: white;
   }
   
-  .navbar ul li a.active {
+  .navbar .active {
     background-color: #373d20;
     color: white;
   }
