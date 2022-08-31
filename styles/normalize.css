@@ -1,5 +1,4 @@
 /* resets css page so that there is no emptpy space */
-html,
 body {
   margin: 0;
   padding: 0;
